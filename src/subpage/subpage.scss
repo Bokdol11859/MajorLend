@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Recipekorea";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.contain {
+  width: 60vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  .Topic {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    font-family: Recipekorea;
+  }
+}

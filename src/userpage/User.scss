@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* MyAccount */
+.myAccount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1e3269;
+  border-radius: 10px;
+  width: 50%;
+  height: 400px;
+}
+.UserName {
+  font-size: 2rem;
+  font-family: SBAggroB;
+}
+
+/* SearchList */
+.searchWrap {
+  flex: 2;
+  padding: 1rem;
+  background-color: #dcdcdc;
+  margin: 1.5rem 0 1.5rem 1rem;
+  border-radius: 10px;
+}
+
+.searchList {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* RentalList */
+
+.bottomWrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.addInfo {
+  float: left;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.addManagement::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.addTitle {
+  font-family: SBAggroB;
+  font-size: 1.7rem;
+  float: left;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+.plusBtn {
+  float: right;
+  margin-right: 16px;
+  margin-top: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.rentalList {
+  float: right;
+  width: 60vw;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #000;
+  margin: 0 0 2rem 0;
+  padding: 1rem 0.25rem;
+  font-family: "SBAggroB";
+}
+
+.rentalList h1 {
+  font-size: 1.5rem;
+}
+
+.user-address {
+  padding: 15px;
+}

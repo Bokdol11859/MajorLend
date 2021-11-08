@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Jal_Onuel";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recipekorea";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.search {
+  padding-top: 10px;
+  .searchbar {
+    border: 2px solid #3f5696;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60vw;
+    height: 60px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Recipekorea;
+  }
+}

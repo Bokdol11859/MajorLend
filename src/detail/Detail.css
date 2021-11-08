@@ -1,0 +1,62 @@
+.bookWrap {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+}
+
+/* .bookWrap::after {
+  content: '';
+  display: block;
+  clear: both;
+} */
+
+.bookCategory {
+  background-color: #1f419c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  margin: 2rem;
+  font-weight: bold;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+
+.bookInfo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 25px;
+  width: 400px;
+  height: 530px;
+}
+
+.bookInfo p {
+  line-height: 120%;
+}
+
+.bookTitle {
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 16px;
+}
+
+.bookAuth {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.cartBtn,
+.payBtn {
+  /* background-color: white; */
+  color: #000;
+  padding: 0 3rem 0;
+  margin-top: 1rem;
+}
+
+.payBtn {
+  color: white;
+}
